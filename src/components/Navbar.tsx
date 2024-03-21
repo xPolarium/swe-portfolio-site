@@ -11,8 +11,8 @@ import {
 export default function Navbar() {
 	return (
 		<>
-			<nav className="container mx-auto py-6">
-				<div className="flex justify-between items-center">
+			<nav className="fixed w-full py-6">
+				<div className="flex justify-around items-center">
 					<div></div>
 					<a
 						href="/"
