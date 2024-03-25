@@ -1,24 +1,15 @@
 ---
 import '@/styles/globals.css'
-import { Button } from "@/components/ui/button"
+
+import BaseLayout from "../layouts/BaseLayout.astro"
 import Navbar from '@/components/Navbar'
 import HeroSection from '@/components/HeroSection'
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-	</head>
-	<body>
-		<main >
-			<Navbar client:load />
-			<HeroSection/>
-		</main>
-	</body>
-</html>
+<BaseLayout title="Miguel's Portfolio">
+	<Navbar client:load />
+	<HeroSection/>
+</BaseLayout>
 
 <script is:inline>
 	const theme = (() => {
