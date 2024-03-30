@@ -24,18 +24,18 @@ export default function Navbar() {
 						<ul className="flex gap-6">
 							<li className="hover:scale-110">
 								<a
-									href="#skills"
-									className="text-2xl text-primary"
-								>
-									Skills
-								</a>
-							</li>
-							<li className="hover:scale-110">
-								<a
 									href="#projects"
 									className="text-2xl text-primary"
 								>
 									Projects
+								</a>
+							</li>
+							<li className="hover:scale-110">
+								<a
+									href="#skills"
+									className="text-2xl text-primary"
+								>
+									Skills
 								</a>
 							</li>
 							<li className="hover:scale-110">
