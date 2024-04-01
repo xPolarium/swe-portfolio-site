@@ -4,7 +4,7 @@ import { IoClose } from "react-icons/io5";
 
 import clsx from "clsx";
 
-import type { ProjectItem } from "./Projects";
+import type { ProjectItem } from "./ProjectsSection";
 
 export default function ProjectCard({
 	project: { title, image, description, github_url, demo_url },

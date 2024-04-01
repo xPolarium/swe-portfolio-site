@@ -13,9 +13,9 @@ const projects = [
 
 export type ProjectItem = (typeof projects)[number];
 
-export default function Projects() {
+export default function ProjectsSection() {
 	return (
-		<section className="container mx-auto">
+		<section className="container mx-auto mb-32">
 			<p className="mb-16 text-4xl font-bold underline">My Projects</p>
 			<div className="grid grid-cols-3 gap-16 items-start">
 				{projects.map((project) => (

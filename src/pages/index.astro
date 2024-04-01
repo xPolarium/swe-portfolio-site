@@ -4,15 +4,17 @@ import '@/styles/globals.css'
 import BaseLayout from "../layouts/BaseLayout.astro"
 import Navbar from '@/components/Navbar'
 import HeroSection from '@/components/HeroSection'
-import Projects from '@/components/Projects'
+import ProjectsSection from '@/components/ProjectsSection'
 import SkillsSection from '@/components/SkillsSection'
+import ContactSection from "@/components/ContactSection"
 ---
 
 <BaseLayout title="Miguel's Portfolio">
 	<Navbar client:load />
 	<HeroSection/>
-	<Projects client:load />
+	<ProjectsSection client:load />
 	<SkillsSection />
+	<ContactSection client:load/>
 </BaseLayout>
 
 <script is:inline>

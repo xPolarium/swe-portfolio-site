@@ -34,10 +34,8 @@ function SkillBar({
 
 export default function SkillsSection() {
 	return (
-		<section className="container mx-auto">
-			<p className="mt-32 mb-16 text-4xl font-bold underline">
-				My Skills
-			</p>
+		<section className="container mx-auto mb-32">
+			<p className="mb-16 text-4xl font-bold underline">My Skills</p>
 			<div className="flex justify-center gap-16">
 				{Object.entries(skills).map((entry) => (
 					<SkillBar skillType={entry[0]} skills={entry[1]} />
